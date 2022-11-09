@@ -1,0 +1,18 @@
+$primary-color: #EAB56F;
+
+@import "animate.css";
+
+@font-face {
+  font-family: "Merriweather";
+  src: url(./assests/fonts/Merriweather-BoldItalic.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url(./assests/fonts/Merriweather-LightItalic.ttf) format("ttf");
+}
+
+input,
+textarea {
+  font-family: "Merriweather";
+}
