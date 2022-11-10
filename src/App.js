@@ -1,6 +1,8 @@
 import './App.scss'
 import Layout from "./components/Layout/Layout";
-import Home from "./components/Home/Home";
+import Home from "./pages/Home/Home";
+import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
 
 import {
   RouterProvider,
@@ -8,11 +10,15 @@ import {
   createRoutesFromElements,
   Route,
 } from 'react-router-dom';
+import Portfolio from './pages/Portfolio/Portfolio';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
-      <Route path='/home' element={<Home/>}></Route>
+      <Route index element={<Home/>}></Route>
+      <Route path='/about' element={<About/>}></Route>
+      <Route path='/contact' element={<Contact/>}></Route>
+      <Route path='/portfolio' element={<Portfolio/>}></Route>
     </Route>
   )
 );
