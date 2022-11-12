@@ -7,18 +7,28 @@ const About = () => {
           <div className="text-zone">
             <h1>Hakkımda</h1>
             <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            Yönetim Bilişim Sistemleri lisans bölümünden bölüm birinciliği ile mezun oldum. 
+            Kodluyoruz front-end bootcampında React eğitimi aldım .Front-end alanında kariyer 
+            hedefliyorum
           </p>
           <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+         <h2>Eğitim Bilgileri</h2> 
+          Bandırma Onyedi Eylül Üniversitesi -Yönetim Bilişim Sistemleri mezun 2018-2022 
+          <br/>
+          ortalama: 3,43
+          <br/>
+          Kodluyoruz Front-end/React Bootcamp
+          <br/>
+          Techcareer.net TM Front-End Developer Bootcamp (devam ediyor)
+
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+          <h2>Sertifika Bilgileri</h2>
+          İngilizce B1-B2 Eğitimi – İstanbul İşletme Enstitüsü 09.2020 
+          <br/>
+          Versiyon Kontrol ve Portfolyo Eğitimi-GlobalAIHub 11.2021
+          <br/>
+          Kodluyoruz Front-end/React Bootcamp 09.2022
           </p>
           </div>
           <div className="stage-cube-cont">
@@ -43,6 +53,7 @@ const About = () => {
                 </div>
             </div>
           </div>
+          
     </div>
   )
 }

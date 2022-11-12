@@ -9,7 +9,7 @@ import {
   faSuitcase,
   faUser,
 } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faHackerrank, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react'
 
 const Sidebar = () => {
@@ -26,7 +26,7 @@ const Sidebar = () => {
         <NavLink
           onClick={() => setShowNav(false)}
           activeclassname="active"
-          to="/home"
+          to="/"
         >
           <FontAwesomeIcon icon={faHome} color="#4d4d4e"></FontAwesomeIcon>
         </NavLink>
@@ -79,6 +79,15 @@ const Sidebar = () => {
             href="https://github.com/sabriyeuregen"
           >
             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.hackerrank.com/sabriyeuregen?hr_r=1"
+          >
+            <FontAwesomeIcon icon={faHackerrank}></FontAwesomeIcon>
           </a>
         </li>
       </ul>

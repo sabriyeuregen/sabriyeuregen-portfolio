@@ -41,7 +41,7 @@
 .container.portfolio-page,
 .container.about-page {
   h1 {
-    font-size: 53px;
+    font-size: 50px;
     color: #eab56f;
     font-weight: 400;
     margin-top: 0;
@@ -73,7 +73,7 @@
     }
   }
   p {
-    font-style: 13px;
+    font-size: 13px;
     color: #eab56f;
     font-family: sans-serif;
     font-weight: 300;
@@ -89,6 +89,9 @@
     &:nth-of-type(3) {
       animation-delay: 1.3s;
     }
+    &:nth-of-type(4) {
+      animation-delay: 1.4s;
+    }
   }
 
   .text-zone {
@@ -100,6 +103,7 @@
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
+  
   }
   .text-animate-hover {
     &:hover {

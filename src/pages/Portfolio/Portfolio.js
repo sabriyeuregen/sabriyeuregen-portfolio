@@ -2,9 +2,10 @@ import "./Portfolio.scss";
 import AnimatedLetters from "../../components/AnimatedLetters/AnimatedLetters";
 import { useEffect, useState } from "react";
 import portfolioData from "../../data/portfolio.json";
-const Portfolio = () => {
+const Portfolio = (props) => {
   
    const[letterClass, setLetterClass]=useState("text-animate")
+   const [portfolio, setPortfolio] = useState([]);
   
    useEffect(()=>{
       const timer = setTimeout(()=>{
