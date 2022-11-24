@@ -116,14 +116,16 @@
              display: block;
              font-size: 15px;
              line-height: 16px;
-
-             &:hover svg {
-                color: #EAB56F;
+             }
+             &:hover {
+               .anchor-icon {
+                  color: #ffd700;
+                }
              }
          }
       }
    }
-  }
+  
 
   .hamburger-icon,
   .close-icon {
@@ -142,16 +144,20 @@
          }
 
          nav {
-            display: block;
+           
             width: 100%;
-            height: 100%;
-            background: #181818;
             top: 0;
             left: 0;
-            position: fixed;
-            z-index: 2;
+            background: #181818;
+            height: 100%;
             margin: 0;
+            z-index: 2;
+            position: fixed;
 
+            &.mobile-show {
+               display: block;
+             }
+         
             a {
                display: flex;
                justify-content: center;
@@ -167,10 +173,6 @@
           
           a svg {
             opacity: 1 !important;
-          }
-
-          &.mobile-show {
-            display: block;
           }
          }
          

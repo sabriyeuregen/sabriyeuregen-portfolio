@@ -17,13 +17,13 @@ const Sidebar = () => {
 
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
-        {' '}
-        {/* logo gelicek*/}
+      <Link className="logo" to="/"
+        onClick={() => setShowNav(false)}>
         <img className="sub-logo" src="" alt="logo"></img>
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink
+          exact="true"
           onClick={() => setShowNav(false)}
           activeclassname="active"
           to="/"
@@ -34,8 +34,7 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}
           activeclassname="active"
           className="about-link"
-          to="/about"
-        >
+          to="/about">
           <FontAwesomeIcon icon={faUser} color="#4d4d4e"></FontAwesomeIcon>
         </NavLink>
         <NavLink
@@ -58,9 +57,9 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}
           icon={faClose}
           color="#ffd700"
-          size="3px"
-          className="close-icon"
-        ></FontAwesomeIcon>
+          className="close-icon">
+        </FontAwesomeIcon>
+       
       </nav>
       <ul>
         <li>
@@ -95,7 +94,6 @@ const Sidebar = () => {
         onClick={() => setShowNav(true)}
         icon={faBars}
         color="#ffd700"
-        size="3px"
         className="hamburger-icon"
       ></FontAwesomeIcon>
     </div>
