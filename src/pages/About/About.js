@@ -8,7 +8,7 @@ const About = () => {
             <h1>Hakkımda</h1>
             <p>
             Yönetim Bilişim Sistemleri lisans bölümünden bölüm birinciliği ile mezun oldum. 
-            Kodluyoruz front-end bootcampında React eğitimi aldım .Front-end alanında kariyer 
+            Front-end alanında kendimi geliştirmek için bootcamplere katıldım ve mezun oldum.Bu alanında bir kariyer 
             hedefliyorum
           </p>
           <p align="LEFT">
@@ -17,9 +17,9 @@ const About = () => {
           <br/>
           ortalama: 3,43
           <br/>
-          Kodluyoruz Front-end/React Bootcamp
+          Kodluyoruz Front-end / React Bootcamp
           <br/>
-          Techcareer.net TM Front-End Developer Bootcamp (devam ediyor)
+          Techcareer.net Front-End Developer Bootcamp (with React)
 
           </p>
           <p>

@@ -5,7 +5,6 @@ import portfolioData from '../../data/portfolio.json'
 
 const Portfolio = (props) => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const [portfolio, setPortfolio] = useState([])
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -17,45 +16,34 @@ const Portfolio = (props) => {
     }
   })
 
-
-
-  const renderPortfolio = (portfolio) => {
-    return (
-      <div className="images-container">
-        {
-        portfolio.map((port, idx) => {
-          return (
-            <div className="image-box" key={idx}>
-               <img 
-               className='portfolio-image'
-               src={port.cover} alt="images"
-               />
-               <div className='content'>
-                <p className='title'>{port.title}</p>
-                <h4 className='description'>{port.description}</h4>
-                <button className='btn' onClick={() => window.open(port.url)}>View</button>
-                </div>
-            </div>
-           
-          )
-        })
-        }
-        </div>
+  const portfolioList = portfolioData.map((item) => (
+    <div className='image-box' key={item.id}>
      
-    )
-  }
-
+      {item.id}
+        {<img className="portfolio-image" src={item.cover} alt="project" />}
+      
+      <div className="content">
+        <div className='title'>{item.title}</div>
+        <div className='description'>{item.description}</div>
+        <button className="btn" onClick={() => window.open(item.url)}>
+          View
+        </button>
+      </div>
+      </div>
+    
+  ))
 
   return (
-    <div className='container portfolio-page'>
+    <div className="container portfolio-page">
       <h1 className="page-title">
         <AnimatedLetters
           letterClass={letterClass}
           strArray={'Portfolio'.split('')}
           idx={15}
         />
-      </h1> 
-      <div className='images-container'>{renderPortfolio(portfolioData.portfolio)}</div>
+      </h1>
+      {/*<div className='images-container'>{renderPortfolio(portfolioData.portfolio)}</div>*/}
+      <div className="images-container">{portfolioList}</div>
     </div>
   )
 }

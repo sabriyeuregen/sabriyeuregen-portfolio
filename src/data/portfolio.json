@@ -1,22 +1,24 @@
-{
-  "portfolio": [
+ [
     {
-      "cover": "/portfolio/project/projectOne.png",
+      "id":1,
+      "cover": "/project/projectOne.png",
       "title": "Food Order",
       "description": "React, JSX, Javascript",
       "url": "https://github.com/sabriyeuregen/food-order-React"
     },
     {
-      "cover": "/portfolio/project/projectTwo.png",
+      "id":2,
+      "cover": "/project/projectTwo.png",
       "title": "Single Page",
       "description": "React, JSX, Javascript,react router-domv6.4",
       "url": "https://github.com/sabriyeuregen/Singlepage"
     },
     {
-      "cover": "/portfolio/project/projectThree.png",
+      "id":3,
+      "cover": "/project/projectThree.png",
       "title": "Weather App",
       "description": "React, JSX, Javascript,API",
       "url": "https://github.com/sabriyeuregen/weather-app"
     }
   ]
-}
+

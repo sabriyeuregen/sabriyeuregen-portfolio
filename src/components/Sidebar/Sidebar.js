@@ -68,7 +68,9 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://www.linkedin.com/in/sabriyeuregen/"
           >
-            <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faLinkedin}  
+              color="#4d4d4e"
+              className="anchor-icon"></FontAwesomeIcon>
           </a>
         </li>
         <li>
@@ -77,7 +79,8 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://github.com/sabriyeuregen"
           >
-            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faGithub} color="#4d4d4e"
+              className="anchor-icon"></FontAwesomeIcon>
           </a>
         </li>
         <li>
@@ -86,7 +89,8 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://www.hackerrank.com/sabriyeuregen?hr_r=1"
           >
-            <FontAwesomeIcon icon={faHackerrank}></FontAwesomeIcon>
+            <FontAwesomeIcon icon={faHackerrank}   color="#4d4d4e"
+              className="anchor-icon"></FontAwesomeIcon>
           </a>
         </li>
       </ul>
