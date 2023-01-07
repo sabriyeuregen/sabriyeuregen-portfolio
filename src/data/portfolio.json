@@ -19,6 +19,20 @@
       "title": "Weather App",
       "description": "React, JSX, Javascript,API",
       "url": "https://github.com/sabriyeuregen/weather-app"
+    },
+    {
+      "id":4,
+      "cover": "/project/projectFour.png",
+      "title": "Photo Gallery",
+      "description": "React, Javascript, SCSS, API",
+      "url": "https://github.com/sabriyeuregen/photo-gallery"
+    },
+    {
+      "id":5,
+      "cover":"/project/projectFive.png",
+      "title":"E-commerce Redux",
+      "description": "React, Javascript, SCSS, Firebase Auth,Redux",
+      "url":"https://github.com/sabriyeuregen/e-commerce-redux"
     }
   ]
 
