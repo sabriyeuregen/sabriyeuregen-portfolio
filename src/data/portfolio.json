@@ -1,38 +1,45 @@
  [
     {
       "id":1,
-      "cover": "/project/projectOne.png",
+      "cover": "/project/foodorder.png",
       "title": "Food Order",
-      "description": "React, JSX, Javascript",
-      "url": "https://github.com/sabriyeuregen/food-order-React"
+      "description": "React, context-Api, react-router-dom, ",
+      "url": "https://food-orderreact.netlify.app/"
     },
     {
       "id":2,
-      "cover": "/project/projectTwo.png",
-      "title": "Single Page",
-      "description": "React, JSX, Javascript,react router-domv6.4",
-      "url": "https://github.com/sabriyeuregen/Singlepage"
+      "cover": "/project/travel.png",
+      "title": "Travel App",
+      "description": "React, smooth-scrolling, SCSS, redux-toolkit",
+      "url": "https://travel-appreact.netlify.app/"
     },
     {
       "id":3,
-      "cover": "/project/projectThree.png",
+      "cover": "/project/weather.png",
       "title": "Weather App",
       "description": "React, JSX, Javascript,API",
-      "url": "https://github.com/sabriyeuregen/weather-app"
+      "url": "https://weather-projecapp.netlify.app/"
     },
     {
       "id":4,
-      "cover": "/project/projectFour.png",
+      "cover": "/project/album.png",
       "title": "Photo Gallery",
       "description": "React, Javascript, SCSS, API",
-      "url": "https://github.com/sabriyeuregen/photo-gallery"
+      "url": "https://photogallery-react.netlify.app/"
     },
     {
       "id":5,
-      "cover":"/project/projectFive.png",
+      "cover":"/project/ecom.png",
       "title":"E-commerce Redux",
-      "description": "React, Javascript, SCSS, Firebase Auth,Redux",
+      "description": "React, Javascript, SCSS, Firebase Auth,Redux, Redux-toolkit",
       "url":"https://github.com/sabriyeuregen/e-commerce-redux"
+    },
+    {
+      "id":6,
+      "cover":"/project/book-search",
+      "title":"Book Search",
+      "description":"React, SCSS, API, axios, react-router-dom",
+      "url":"https://booksearch-app.netlify.app/"
     }
   ]
 
