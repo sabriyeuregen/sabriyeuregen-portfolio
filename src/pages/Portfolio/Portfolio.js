@@ -28,6 +28,7 @@ const Portfolio = (props) => {
         <button className="btn" onClick={() => window.open(item.url)}>
           View
         </button>
+        <button className='btn' onClick={() => window.open(item.github)}>Github</button>
       </div>
       </div>
     

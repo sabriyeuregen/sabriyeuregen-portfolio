@@ -1,6 +1,6 @@
 .nav-bar {
     background-color: #171C2D;
-    width: 60px ;
+    width: 70px ;
     height: 100%;
     position: absolute;
     top: 0;
@@ -8,19 +8,12 @@
     min-height: 500px;
 
     .logo {
-        display: block;
-        padding: 8px 0;
+      display: block;
+      font-size: 16px;
+      text-align: center;
+      margin-top: 10px;
+      color: #EAB56F;
 
-        img {
-            display: block;
-            margin: 8px auto;
-            width: 24px;
-            height: auto;
-
-            &.sub-logo {
-                width: 50px;
-            }
-        }
     }
     nav {
         display: block;
@@ -148,7 +141,7 @@
             width: 100%;
             top: 0;
             left: 0;
-            background: #181818;
+            background: #171C2D;
             height: 100%;
             margin: 0;
             z-index: 2;

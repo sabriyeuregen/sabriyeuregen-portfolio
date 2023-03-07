@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
 import AnimatedLetters from '../../components/AnimatedLetters/AnimatedLetters'
-import Logo from './Logo/Logo'
+
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = [" ",'S', 'a', 'b', 'r', 'i', 'y', 'e']
@@ -21,7 +21,10 @@ const Home = () => {
     'p',
     'e',
     'r',
-    '.',
+    'ı',
+    'm',
+    "."
+   
   ]
 
   useEffect(() => {
@@ -56,7 +59,7 @@ const Home = () => {
           İletişime Geç
         </Link>
       </div>
-      <Logo></Logo>
+  
     </div>
   )
 }

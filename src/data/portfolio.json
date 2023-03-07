@@ -3,43 +3,57 @@
       "id":1,
       "cover": "/project/foodorder.png",
       "title": "Food Order",
-      "description": "React, context-Api, react-router-dom, ",
-      "url": "https://food-orderreact.netlify.app/"
+      "description": "React, Module CSS, ContextAPI react-router-domv6.3, ",
+      "url": "https://food-orderreact.netlify.app/",
+      "github":"https://github.com/sabriyeuregen/food-order-React"
     },
     {
       "id":2,
       "cover": "/project/travel.png",
       "title": "Travel App",
-      "description": "React, smooth-scrolling, SCSS, redux-toolkit",
-      "url": "https://travel-appreact.netlify.app/"
+      "description": "React, react-scroll, SCSS, Redux-toolkit",
+      "url": "https://travel-appreact.netlify.app/",
+      "github":"https://github.com/sabriyeuregen/travel-app"
     },
     {
       "id":3,
-      "cover": "/project/weather.png",
+      "cover": "/project/weatherapp-res.png",
       "title": "Weather App",
-      "description": "React, JSX, Javascript,API",
-      "url": "https://weather-projecapp.netlify.app/"
+      "description": "React, CSS, API",
+      "url": "https://weather-projecapp.netlify.app/",
+      "github":"https://github.com/sabriyeuregen/weather-app"
     },
     {
       "id":4,
       "cover": "/project/album.png",
       "title": "Photo Gallery",
-      "description": "React, Javascript, SCSS, API",
-      "url": "https://photogallery-react.netlify.app/"
+      "description": "React, react-router-domv6.4, SCSS, ContextAPI",
+      "url": "https://photogallery-react.netlify.app/",
+      "github":"https://github.com/sabriyeuregen/photo-gallery"
     },
     {
       "id":5,
       "cover":"/project/ecom.png",
       "title":"E-commerce Redux",
-      "description": "React, Javascript, SCSS, Firebase Auth,Redux, Redux-toolkit",
-      "url":"https://github.com/sabriyeuregen/e-commerce-redux"
+      "description": "React, react-router-dom ,SCSS, Firebase Auth, Redux, Redux-toolkit",
+      "url":"https://e-commerceredux.netlify.app/",
+      "github":"https://github.com/sabriyeuregen/e-commerce-redux"
     },
     {
       "id":6,
-      "cover":"/project/book-search",
+      "cover":"/project/book-search.png",
       "title":"Book Search",
-      "description":"React, SCSS, API, axios, react-router-dom",
-      "url":"https://booksearch-app.netlify.app/"
+      "description":"React, SCSS, API, axios, react-router-dom, mui-data-grid",
+      "url":"https://booksearch-app.netlify.app/",
+      "github":"https://github.com/sabriyeuregen/search-bookapp"
+    },
+    {
+      "id":7,
+      "cover":"/project/ts-shopping.png",
+      "title":"Shopping Cart with TypeScript",
+      "description":"React, TypeScript, TailwindCSS , ContextAPI, vite",
+      "url":"https://shoppingcartproject-ts.netlify.app/",
+      "github":"https://github.com/sabriyeuregen/shopping-cart-ts"
     }
   ]
 

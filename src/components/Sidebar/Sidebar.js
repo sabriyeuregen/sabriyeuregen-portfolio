@@ -8,6 +8,7 @@ import {
   faHome,
   faSuitcase,
   faUser,
+  faSmile
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faHackerrank, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { useState } from 'react'
@@ -19,7 +20,7 @@ const Sidebar = () => {
     <div className="nav-bar">
       <Link className="logo" to="/"
         onClick={() => setShowNav(false)}>
-        <img className="sub-logo" src="" alt="logo"></img>
+        <FontAwesomeIcon icon={faSmile}/>
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink

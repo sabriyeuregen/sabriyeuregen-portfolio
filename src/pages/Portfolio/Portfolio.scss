@@ -1,5 +1,5 @@
 .portfolio-page {
-    padding-left: 100px;
+    padding-left: 130px;
     padding-right: 50px;
     width: calc(100% - 150px);
     position: initial;
@@ -54,26 +54,30 @@
         .title {
             margin-bottom: 0;
             margin-top: 0;
-            color: #fff;
             font-size: 24px;
             font-weight: 500;
             line-height: 24px;
+            color: white;
         }
 
         .description {
-            font-size: 14px;
+            font-size: 1.5rem;
+            margin-top: 5px;
             margin-bottom: 5px;
             color: #fff;
             font-weight: 700;
+            overflow: hidden;
+             color: white;
         }
 
         .btn {
             margin-top: 30px;
             margin-bottom: 10px;
+            margin-left: 10px;
             padding: 0 23px;
             height: 40px;
             line-height: 34px;
-            border: 2px solid #ffd700;
+            border: 2px solid #eab56f;
             border-radius: 4px;
             font-size: 14px;
             color: #fff;
@@ -86,12 +90,12 @@
 
         .btn:hover {
             transform: translateY(-3px);
-            background: #ffd700;
+            background: #eab56f;
         }
 
         &:after {
             content: "";
-            background: linear-gradient(180deg, #ffd700, #000);
+            background: linear-gradient(180deg, #eab56f, #000);
             position: absolute;
             left: 0;
             right: 0;
