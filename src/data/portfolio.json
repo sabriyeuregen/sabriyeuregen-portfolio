@@ -54,6 +54,14 @@
       "description":"React, TypeScript, TailwindCSS , ContextAPI, vite",
       "url":"https://shoppingcartproject-ts.netlify.app/",
       "github":"https://github.com/sabriyeuregen/shopping-cart-ts"
+    },
+    {
+      "id":8,
+      "cover":"/project/quiz-app.png",
+      "title":"Quiz App ",
+      "description":"React, TypeScript,vite",
+      "url":"https://quizapp-ts.netlify.app/",
+      "github":"https://github.com/sabriyeuregen/quiz-app"
     }
   ]
 
